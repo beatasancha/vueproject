@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 import '/src/style.css'
 import 'primeicons/primeicons.css'
-import ViewProjectsList from './views/ViewProjectsList.vue';
-import CreateProject from './views/CreateProject.vue';
+import ViewProjectsList from './components/ViewProjectsList.vue';
+import CreateProject from './components/CreateProject.vue';
 
 const rating = ref(3);
 </script>
