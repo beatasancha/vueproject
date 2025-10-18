@@ -11,7 +11,7 @@ import Button from 'primevue/button';
 const projects = ref([]);
 const fetchProjects = async () => {
     try{
-        const response = await fetch("13.228.225.19:3000/projects");
+        const response = await fetch("https://vueproject-h4qj.onrender.com//projects");
         const data = await response.json();
         projects.value = data.data;
         
